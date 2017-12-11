@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/title3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/button_start"
+        android:background="@drawable/circle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="190dp"/>
+    <ImageButton
+        android:id="@+id/button_difficulty"
+        android:background="@drawable/circle2"
+        android:layout_marginTop="192dp"
+        android:layout_marginLeft="215dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/button_music"
+        android:background="@drawable/circle3"
+        android:layout_below="@id/button_start"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/button_about"
+        android:background="@drawable/circle4"
+        android:layout_below="@id/button_difficulty"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="190dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>

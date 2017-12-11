@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wang.game.MainActivity">
+
+    <ImageView
+        android:background="@drawable/title4"/>
+    <TableRow>
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/user"
+            android:text="@string/text1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="end"/>
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/text2" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/password"
+            android:text="@string/text3"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="end"/>
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="textPassword"
+            android:hint="@string/text4"/>
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+            android:id="@+id/remember_button"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/remember_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="@string/remember_text"/>
+    </TableRow>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="250" />
+    <Button
+        android:id="@+id/login_button"
+        android:text="@string/login_button"
+        android:textSize="25sp"
+        android:background="#add8e6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</TableLayout>
